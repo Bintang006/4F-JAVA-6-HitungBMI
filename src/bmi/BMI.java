@@ -25,19 +25,19 @@ public class BMI {
             gem = 25;
             norm = 18;
         }
-        System.out.println("####################################");
+        System.out.println("------------------------------------");
         System.out.println("BMI = " +bmi);
        
         if(bmi>ob){
-            System.out.println("OBESITAS  \n \"Note : Warning!, Sebaiknya segera membuat program menurunkan berat badan karena anda termasuk kategori obesitas/ terlalu gemuk dan tidak baik bagi kesehatan.\" ") ;
+            System.out.println("OBESITAS  \n \"Note : Berbahaya!, Anda masuk kategori obesitas,sebaiknya anda diet dan melakukan kegiatan yang dapat membakar lemak/ berat badan berlebihan atau masuk obesitas dapat menyebabkan gangguan kesehatan.\" ") ;
         } else if(bmi>gem){
-            System.out.println("KEGEMUKAN  \n \"Note : Harus waspada! anda sudah masuk kategori gemuk. sebaiknya hindari makanan berlemak dan mulailah meningkatkan olahraga seminggu minimal 2 kali.\" ") ;
+            System.out.println("KEGEMUKAN  \n \"Note : Waspada! Anda masuk kategori gemuk, jaga pola makan dan melakukan olahraga 2 kali seminggu untuk membakar kalori.\" ") ;
         } else if(bmi>norm){
-            System.out.println("NORMAL  \n \"Note : Selamat berat badan anda termasuk ideal\" ") ;
+            System.out.println("NORMAL  \n \"Note : Selamat! Anda masuk kategori berat badan ideal.\" ") ;
         } else {
-            System.out.println("KURUS   \n \"Note : Sebaiknya mulai menambah berat badan dan mengkonsumsi makanan berkarbohidrat di imbangi dengan olah raga.\" ") ;
+            System.out.println("KURUS   \n \"Note : Hati-hati! Anda harus menambah porsi makan dan melakukan olahraga rutin setiap minggu.\" ") ;
         }
-        System.out.println("####################################");
+        System.out.println("------------------------------------");
     
     }
     
