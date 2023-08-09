@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package m.wildan240.pkg4f;
+package m_wildan240.pkg4f;
 
 /**
  *
